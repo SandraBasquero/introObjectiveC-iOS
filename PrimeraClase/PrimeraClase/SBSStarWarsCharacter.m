@@ -10,6 +10,20 @@
 
 @implementation SBSStarWarsCharacter
 
+//Métodos de clase
++(id) starwarsCharacterWithFirstName: (NSString *)firstName
+                            lastName: (NSString *)lastName
+                               alias: (NSString *) alias {
+    return [[self alloc] initWithFirstName:firstName
+                                  lastName:lastName
+                                     alias:alias];
+}
+
++(id) starwarsCharacterWithAlias: (NSString *) alias{
+    return [[self alloc] initWithAlias:alias];
+    
+}
+
 //Inicializador designado
 -(id) initWithFirstName: (NSString *)firstName
                lastName: (NSString *)lastName

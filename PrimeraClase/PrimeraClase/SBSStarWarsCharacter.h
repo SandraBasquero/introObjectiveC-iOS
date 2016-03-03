@@ -14,6 +14,13 @@
 @property NSString *lastName;
 @property NSString *alias;
 
+//Métodos de clase
++(id) starwarsCharacterWithFirstName: (NSString *)firstName
+                            lastName: (NSString *)lastName
+                               alias: (NSString *) alias;
+
++(id) starwarsCharacterWithAlias: (NSString *) alias;
+
 //Inicializador designado
 -(id) initWithFirstName: (NSString *)firstName
                lastName: (NSString *)lastName
