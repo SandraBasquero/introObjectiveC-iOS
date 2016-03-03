@@ -14,4 +14,11 @@
 @property NSString *lastName;
 @property NSString *alias;
 
+//Inicializador designado
+-(id) initWithFirstName: (NSString *)firstName
+               lastName: (NSString *)lastName
+                  alias: (NSString *) alias;
+
+//Inicializador de conveniencia
+-(id) initWithAlias: (NSString *) alias;
 @end

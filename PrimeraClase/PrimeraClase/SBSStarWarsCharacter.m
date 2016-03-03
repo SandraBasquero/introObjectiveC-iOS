@@ -10,4 +10,24 @@
 
 @implementation SBSStarWarsCharacter
 
+//Inicializador designado
+-(id) initWithFirstName: (NSString *)firstName
+               lastName: (NSString *)lastName
+                  alias: (NSString *) alias {
+    
+    if (self = [super init]) {
+        self.firstName = firstName;
+        self.lastName  = lastName;
+        self.alias = alias;
+    }
+    return self;
+}
+
+//Inicializador de conveniencia
+-(id) initWithAlias: (NSString *) alias {
+    return [self initWithFirstName:@""
+                          lastName:@""
+                             alias:alias];
+}
+
 @end
