@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		957B67641C89B42E00960FBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B67631C89B42E00960FBF /* main.m */; };
+		957B67671C89B42E00960FBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B67661C89B42E00960FBF /* AppDelegate.m */; };
+		957B676A1C89B42E00960FBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B67691C89B42E00960FBF /* ViewController.m */; };
+		957B676D1C89B42E00960FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957B676B1C89B42E00960FBF /* Main.storyboard */; };
+		957B676F1C89B42E00960FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957B676E1C89B42E00960FBF /* Assets.xcassets */; };
+		957B67721C89B42E00960FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957B67701C89B42E00960FBF /* LaunchScreen.storyboard */; };
+		957B677D1C89B42E00960FBF /* BaccusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B677C1C89B42E00960FBF /* BaccusUITests.m */; };
+		957B67891C89C14F00960FBF /* SBSWineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B67881C89C14F00960FBF /* SBSWineModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		957B67791C89B42E00960FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 957B67571C89B42E00960FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 957B675E1C89B42E00960FBF;
+			remoteInfo = Baccus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		957B675F1C89B42E00960FBF /* Baccus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baccus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		957B67631C89B42E00960FBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		957B67651C89B42E00960FBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		957B67661C89B42E00960FBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		957B67681C89B42E00960FBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		957B67691C89B42E00960FBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		957B676C1C89B42E00960FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		957B676E1C89B42E00960FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		957B67711C89B42E00960FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		957B67731C89B42E00960FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957B67781C89B42E00960FBF /* BaccusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaccusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		957B677C1C89B42E00960FBF /* BaccusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaccusUITests.m; sourceTree = "<group>"; };
+		957B677E1C89B42E00960FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957B67871C89C14F00960FBF /* SBSWineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSWineModel.h; sourceTree = "<group>"; };
+		957B67881C89C14F00960FBF /* SBSWineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSWineModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		957B675C1C89B42E00960FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957B67751C89B42E00960FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		957B67561C89B42E00960FBF = {
+			isa = PBXGroup;
+			children = (
+				957B67611C89B42E00960FBF /* Baccus */,
+				957B677B1C89B42E00960FBF /* BaccusUITests */,
+				957B67601C89B42E00960FBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		957B67601C89B42E00960FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				957B675F1C89B42E00960FBF /* Baccus.app */,
+				957B67781C89B42E00960FBF /* BaccusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		957B67611C89B42E00960FBF /* Baccus */ = {
+			isa = PBXGroup;
+			children = (
+				957B67651C89B42E00960FBF /* AppDelegate.h */,
+				957B67661C89B42E00960FBF /* AppDelegate.m */,
+				957B678A1C89C15D00960FBF /* Models */,
+				957B67681C89B42E00960FBF /* ViewController.h */,
+				957B67691C89B42E00960FBF /* ViewController.m */,
+				957B676B1C89B42E00960FBF /* Main.storyboard */,
+				957B676E1C89B42E00960FBF /* Assets.xcassets */,
+				957B67701C89B42E00960FBF /* LaunchScreen.storyboard */,
+				957B67731C89B42E00960FBF /* Info.plist */,
+				957B67621C89B42E00960FBF /* Supporting Files */,
+			);
+			path = Baccus;
+			sourceTree = "<group>";
+		};
+		957B67621C89B42E00960FBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				957B67631C89B42E00960FBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		957B677B1C89B42E00960FBF /* BaccusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				957B677C1C89B42E00960FBF /* BaccusUITests.m */,
+				957B677E1C89B42E00960FBF /* Info.plist */,
+			);
+			path = BaccusUITests;
+			sourceTree = "<group>";
+		};
+		957B678A1C89C15D00960FBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				957B67871C89C14F00960FBF /* SBSWineModel.h */,
+				957B67881C89C14F00960FBF /* SBSWineModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		957B675E1C89B42E00960FBF /* Baccus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957B67811C89B42E00960FBF /* Build configuration list for PBXNativeTarget "Baccus" */;
+			buildPhases = (
+				957B675B1C89B42E00960FBF /* Sources */,
+				957B675C1C89B42E00960FBF /* Frameworks */,
+				957B675D1C89B42E00960FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baccus;
+			productName = Baccus;
+			productReference = 957B675F1C89B42E00960FBF /* Baccus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		957B67771C89B42E00960FBF /* BaccusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957B67841C89B42E00960FBF /* Build configuration list for PBXNativeTarget "BaccusUITests" */;
+			buildPhases = (
+				957B67741C89B42E00960FBF /* Sources */,
+				957B67751C89B42E00960FBF /* Frameworks */,
+				957B67761C89B42E00960FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				957B677A1C89B42E00960FBF /* PBXTargetDependency */,
+			);
+			name = BaccusUITests;
+			productName = BaccusUITests;
+			productReference = 957B67781C89B42E00960FBF /* BaccusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		957B67571C89B42E00960FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Sandra;
+				TargetAttributes = {
+					957B675E1C89B42E00960FBF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					957B67771C89B42E00960FBF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 957B675E1C89B42E00960FBF;
+					};
+				};
+			};
+			buildConfigurationList = 957B675A1C89B42E00960FBF /* Build configuration list for PBXProject "Baccus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 957B67561C89B42E00960FBF;
+			productRefGroup = 957B67601C89B42E00960FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				957B675E1C89B42E00960FBF /* Baccus */,
+				957B67771C89B42E00960FBF /* BaccusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		957B675D1C89B42E00960FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957B67721C89B42E00960FBF /* LaunchScreen.storyboard in Resources */,
+				957B676F1C89B42E00960FBF /* Assets.xcassets in Resources */,
+				957B676D1C89B42E00960FBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957B67761C89B42E00960FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		957B675B1C89B42E00960FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957B676A1C89B42E00960FBF /* ViewController.m in Sources */,
+				957B67891C89C14F00960FBF /* SBSWineModel.m in Sources */,
+				957B67671C89B42E00960FBF /* AppDelegate.m in Sources */,
+				957B67641C89B42E00960FBF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957B67741C89B42E00960FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957B677D1C89B42E00960FBF /* BaccusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		957B677A1C89B42E00960FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 957B675E1C89B42E00960FBF /* Baccus */;
+			targetProxy = 957B67791C89B42E00960FBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		957B676B1C89B42E00960FBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957B676C1C89B42E00960FBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		957B67701C89B42E00960FBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957B67711C89B42E00960FBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		957B677F1C89B42E00960FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		957B67801C89B42E00960FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		957B67821C89B42E00960FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Baccus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sandra.exercice.Baccus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		957B67831C89B42E00960FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Baccus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sandra.exercice.Baccus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		957B67851C89B42E00960FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BaccusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sandra.exercice.BaccusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Baccus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		957B67861C89B42E00960FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BaccusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sandra.exercice.BaccusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Baccus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		957B675A1C89B42E00960FBF /* Build configuration list for PBXProject "Baccus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957B677F1C89B42E00960FBF /* Debug */,
+				957B67801C89B42E00960FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957B67811C89B42E00960FBF /* Build configuration list for PBXNativeTarget "Baccus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957B67821C89B42E00960FBF /* Debug */,
+				957B67831C89B42E00960FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		957B67841C89B42E00960FBF /* Build configuration list for PBXNativeTarget "BaccusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957B67851C89B42E00960FBF /* Debug */,
+				957B67861C89B42E00960FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 957B67571C89B42E00960FBF /* Project object */;
+}
