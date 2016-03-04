@@ -44,4 +44,13 @@
                              alias:alias];
 }
 
+//Sobreescribir el método "description" de la clase NSObject para mejorar los NSLog.
+-(NSString *)description {
+    return [NSString stringWithFormat:@"<%@: %@ %@ %@>", [self class], [self firstName], [self lastName], [self alias]];
+}
+
 @end
+
+
+
+

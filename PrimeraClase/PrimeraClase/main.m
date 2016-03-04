@@ -41,9 +41,10 @@ int main(int argc, const char * argv[]) {
         //NSLog
         NSLog(@"Mi nombre es %@ %@ y soy más conocido como %@.",[anakin firstName], [anakin lastName], [anakin alias]);
         NSLog(@"Mi nombre es %@ y soy un androide de protocolo.",[c3po alias]);
-        NSLog(@"Mi nombre es %@ %@ y soy más conocida como %@.",[leia firstName], [leia lastName], [leia alias]);
+        NSLog(@"Mi nombre es %@ %@ y soy más conocida como %@ a secas.",[leia firstName], [leia lastName], [leia alias]);
         NSLog(@"Mi nombre es %@ y soy un androide... navaja-suiza.",[r2d2 alias]);
-        NSLog(@"%@", c3po);
+        NSLog(@"%@", anakin);
+        
     }
     return 0;
 }
