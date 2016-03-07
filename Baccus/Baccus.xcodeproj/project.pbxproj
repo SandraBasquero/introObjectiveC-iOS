@@ -15,6 +15,8 @@
 		957B67721C89B42E00960FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957B67701C89B42E00960FBF /* LaunchScreen.storyboard */; };
 		957B677D1C89B42E00960FBF /* BaccusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B677C1C89B42E00960FBF /* BaccusUITests.m */; };
 		957B67891C89C14F00960FBF /* SBSWineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B67881C89C14F00960FBF /* SBSWineModel.m */; };
+		B6E1DC591C8E0FFE00ACD846 /* SBSWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E1DC571C8E0FFE00ACD846 /* SBSWineViewController.m */; };
+		B6E1DC5A1C8E0FFE00ACD846 /* SBSWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E1DC581C8E0FFE00ACD846 /* SBSWineViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		957B677E1C89B42E00960FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		957B67871C89C14F00960FBF /* SBSWineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSWineModel.h; sourceTree = "<group>"; };
 		957B67881C89C14F00960FBF /* SBSWineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSWineModel.m; sourceTree = "<group>"; };
+		B6E1DC561C8E0FFE00ACD846 /* SBSWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSWineViewController.h; sourceTree = "<group>"; };
+		B6E1DC571C8E0FFE00ACD846 /* SBSWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSWineViewController.m; sourceTree = "<group>"; };
+		B6E1DC581C8E0FFE00ACD846 /* SBSWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBSWineViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,7 @@
 			children = (
 				957B67651C89B42E00960FBF /* AppDelegate.h */,
 				957B67661C89B42E00960FBF /* AppDelegate.m */,
+				B6E1DC5B1C8E100500ACD846 /* Controllers */,
 				957B678A1C89C15D00960FBF /* Models */,
 				957B67681C89B42E00960FBF /* ViewController.h */,
 				957B67691C89B42E00960FBF /* ViewController.m */,
@@ -122,6 +128,16 @@
 				957B67881C89C14F00960FBF /* SBSWineModel.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		B6E1DC5B1C8E100500ACD846 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6E1DC561C8E0FFE00ACD846 /* SBSWineViewController.h */,
+				B6E1DC571C8E0FFE00ACD846 /* SBSWineViewController.m */,
+				B6E1DC581C8E0FFE00ACD846 /* SBSWineViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E1DC5A1C8E0FFE00ACD846 /* SBSWineViewController.xib in Resources */,
 				957B67721C89B42E00960FBF /* LaunchScreen.storyboard in Resources */,
 				957B676F1C89B42E00960FBF /* Assets.xcassets in Resources */,
 				957B676D1C89B42E00960FBF /* Main.storyboard in Resources */,
@@ -226,6 +243,7 @@
 			files = (
 				957B676A1C89B42E00960FBF /* ViewController.m in Sources */,
 				957B67891C89C14F00960FBF /* SBSWineModel.m in Sources */,
+				B6E1DC591C8E0FFE00ACD846 /* SBSWineViewController.m in Sources */,
 				957B67671C89B42E00960FBF /* AppDelegate.m in Sources */,
 				957B67641C89B42E00960FBF /* main.m in Sources */,
 			);
@@ -416,6 +434,7 @@
 				957B67831C89B42E00960FBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		957B67841C89B42E00960FBF /* Build configuration list for PBXNativeTarget "BaccusUITests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				957B67861C89B42E00960FBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
