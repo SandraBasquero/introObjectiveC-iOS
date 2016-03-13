@@ -18,6 +18,7 @@
 		B62713751C9496490069B1ED /* splitView_score_glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62713741C9496490069B1ED /* splitView_score_glass@2x.png */; };
 		B6E1DC591C8E0FFE00ACD846 /* SBSWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E1DC571C8E0FFE00ACD846 /* SBSWineViewController.m */; };
 		B6E1DC5A1C8E0FFE00ACD846 /* SBSWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E1DC581C8E0FFE00ACD846 /* SBSWineViewController.xib */; };
+		B6FF1D001C957CAE0042AEB1 /* bembibre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6FF1CFF1C957CAE0042AEB1 /* bembibre.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		B6E1DC561C8E0FFE00ACD846 /* SBSWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSWineViewController.h; sourceTree = "<group>"; };
 		B6E1DC571C8E0FFE00ACD846 /* SBSWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSWineViewController.m; sourceTree = "<group>"; };
 		B6E1DC581C8E0FFE00ACD846 /* SBSWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBSWineViewController.xib; sourceTree = "<group>"; };
+		B6FF1CFF1C957CAE0042AEB1 /* bembibre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bembibre.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		B62713761C9496540069B1ED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B6FF1CFF1C957CAE0042AEB1 /* bembibre.jpg */,
 				B62713741C9496490069B1ED /* splitView_score_glass@2x.png */,
 			);
 			name = Resources;
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6E1DC5A1C8E0FFE00ACD846 /* SBSWineViewController.xib in Resources */,
+				B6FF1D001C957CAE0042AEB1 /* bembibre.jpg in Resources */,
 				B62713751C9496490069B1ED /* splitView_score_glass@2x.png in Resources */,
 				957B67721C89B42E00960FBF /* LaunchScreen.storyboard in Resources */,
 				957B676F1C89B42E00960FBF /* Assets.xcassets in Resources */,

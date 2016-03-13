@@ -54,6 +54,8 @@
     self.grapesLabel.text = [self arrayToString: self.model.grapes];
     
     [self displayRating: self.model.rating];
+    
+    [self.notesLabel setNumberOfLines:0];
 }
 
 -(void) clearRatings{
