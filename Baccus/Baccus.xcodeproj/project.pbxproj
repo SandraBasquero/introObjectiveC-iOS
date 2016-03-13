@@ -16,6 +16,8 @@
 		957B677D1C89B42E00960FBF /* BaccusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B677C1C89B42E00960FBF /* BaccusUITests.m */; };
 		957B67891C89C14F00960FBF /* SBSWineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B67881C89C14F00960FBF /* SBSWineModel.m */; };
 		B62713751C9496490069B1ED /* splitView_score_glass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B62713741C9496490069B1ED /* splitView_score_glass@2x.png */; };
+		B6D822FC1C95E03600F2AB90 /* SBSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D822FA1C95E03600F2AB90 /* SBSWebViewController.m */; };
+		B6D822FD1C95E03600F2AB90 /* SBSWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D822FB1C95E03600F2AB90 /* SBSWebViewController.xib */; };
 		B6E1DC591C8E0FFE00ACD846 /* SBSWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E1DC571C8E0FFE00ACD846 /* SBSWineViewController.m */; };
 		B6E1DC5A1C8E0FFE00ACD846 /* SBSWineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E1DC581C8E0FFE00ACD846 /* SBSWineViewController.xib */; };
 		B6FF1D001C957CAE0042AEB1 /* bembibre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6FF1CFF1C957CAE0042AEB1 /* bembibre.jpg */; };
@@ -48,6 +50,9 @@
 		957B67871C89C14F00960FBF /* SBSWineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSWineModel.h; sourceTree = "<group>"; };
 		957B67881C89C14F00960FBF /* SBSWineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSWineModel.m; sourceTree = "<group>"; };
 		B62713741C9496490069B1ED /* splitView_score_glass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splitView_score_glass@2x.png"; sourceTree = "<group>"; };
+		B6D822F91C95E03600F2AB90 /* SBSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSWebViewController.h; sourceTree = "<group>"; };
+		B6D822FA1C95E03600F2AB90 /* SBSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSWebViewController.m; sourceTree = "<group>"; };
+		B6D822FB1C95E03600F2AB90 /* SBSWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBSWebViewController.xib; sourceTree = "<group>"; };
 		B6E1DC561C8E0FFE00ACD846 /* SBSWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSWineViewController.h; sourceTree = "<group>"; };
 		B6E1DC571C8E0FFE00ACD846 /* SBSWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSWineViewController.m; sourceTree = "<group>"; };
 		B6E1DC581C8E0FFE00ACD846 /* SBSWineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBSWineViewController.xib; sourceTree = "<group>"; };
@@ -150,6 +155,9 @@
 				B6E1DC561C8E0FFE00ACD846 /* SBSWineViewController.h */,
 				B6E1DC571C8E0FFE00ACD846 /* SBSWineViewController.m */,
 				B6E1DC581C8E0FFE00ACD846 /* SBSWineViewController.xib */,
+				B6D822F91C95E03600F2AB90 /* SBSWebViewController.h */,
+				B6D822FA1C95E03600F2AB90 /* SBSWebViewController.m */,
+				B6D822FB1C95E03600F2AB90 /* SBSWebViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -239,6 +247,7 @@
 				B62713751C9496490069B1ED /* splitView_score_glass@2x.png in Resources */,
 				957B67721C89B42E00960FBF /* LaunchScreen.storyboard in Resources */,
 				957B676F1C89B42E00960FBF /* Assets.xcassets in Resources */,
+				B6D822FD1C95E03600F2AB90 /* SBSWebViewController.xib in Resources */,
 				957B676D1C89B42E00960FBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +270,7 @@
 				957B67891C89C14F00960FBF /* SBSWineModel.m in Sources */,
 				B6E1DC591C8E0FFE00ACD846 /* SBSWineViewController.m in Sources */,
 				957B67671C89B42E00960FBF /* AppDelegate.m in Sources */,
+				B6D822FC1C95E03600F2AB90 /* SBSWebViewController.m in Sources */,
 				957B67641C89B42E00960FBF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
