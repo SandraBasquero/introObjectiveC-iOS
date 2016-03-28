@@ -37,12 +37,16 @@
                                                  rating:5
                                                   photo:[UIImage imageNamed:@"bembibre.jpg"]];
     
-    //Creamos el controlador
-    //SBSWineViewController * wineVC = [[SBSWineViewController alloc]initWithModel:tintorro];
+    //Creamos los controladores
+    SBSWineViewController * wineVC = [[SBSWineViewController alloc]initWithModel:tintorro];
     SBSWebViewController *webVC = [[SBSWebViewController alloc]initWithModel:tintorro];
     
+    //Creamos un combinador
+    UITabBarController *tabVC = [[UITabBarController alloc]init];
+    tabVC.viewControllers = @[wineVC, webVC];
+    
     //Lo asignamos al controlador raíz
-    self.window.rootViewController = webVC;
+    self.window.rootViewController = tabVC;
     
     self.window.backgroundColor = [UIColor orangeColor];
     [self.window makeKeyAndVisible];

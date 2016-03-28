@@ -15,6 +15,7 @@
     if (self = [super initWithNibName:nil
                               bundle:nil]) {
         self.model = aModel;
+        self.title = @"Web";
     }
     return self;
 }
