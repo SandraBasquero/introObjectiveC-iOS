@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "SBSWineModel.h"
 #import "SBSWineViewController.h"
+#import "SBSWebViewController.h"
 
 @interface AppDelegate ()
 
@@ -37,10 +38,11 @@
                                                   photo:[UIImage imageNamed:@"bembibre.jpg"]];
     
     //Creamos el controlador
-    SBSWineViewController * wineVC = [[SBSWineViewController alloc]initWithModel:tintorro];
+    //SBSWineViewController * wineVC = [[SBSWineViewController alloc]initWithModel:tintorro];
+    SBSWebViewController *webVC = [[SBSWebViewController alloc]initWithModel:tintorro];
     
     //Lo asignamos al controlador raíz
-    self.window.rootViewController = wineVC;
+    self.window.rootViewController = webVC;
     
     self.window.backgroundColor = [UIColor orangeColor];
     [self.window makeKeyAndVisible];
