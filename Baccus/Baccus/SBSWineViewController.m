@@ -7,7 +7,7 @@
 //
 
 #import "SBSWineViewController.h"
-
+#import "SBSWebViewController.h"
 
 @implementation SBSWineViewController
 
@@ -26,6 +26,10 @@
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     [self syncModelWithView];
+    
+    [self.navigationController.navigationBar setTitleTextAttributes:[NSDictionary
+                                                                     dictionaryWithObjectsAndKeys:[UIColor whiteColor],NSForegroundColorAttributeName,nil]];
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.5 green:0 blue:0.13 alpha:1];
 }
 
 
@@ -40,7 +44,12 @@
 
 - (IBAction)displayWeb:(id)sender {
     NSLog(@"Go to %@", self.model.wineCompanyWeb);
+    //Crear un webVC
+    SBSWebViewController *webVC = [[SBSWebViewController alloc]initWithModel:self.model];
+    //Hacemos un push
+    [self.navigationController pushViewController:webVC animated:YES];
 }
+
 
 
 #pragma mark - Utils
