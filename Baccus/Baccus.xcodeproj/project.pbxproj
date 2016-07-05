@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		957404071D2BFEFC00A1E88B /* SBSWineryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957404061D2BFEFC00A1E88B /* SBSWineryTableViewController.m */; };
 		957B67641C89B42E00960FBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B67631C89B42E00960FBF /* main.m */; };
 		957B67671C89B42E00960FBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B67661C89B42E00960FBF /* AppDelegate.m */; };
 		957B676A1C89B42E00960FBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957B67691C89B42E00960FBF /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		957404051D2BFEFC00A1E88B /* SBSWineryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSWineryTableViewController.h; sourceTree = "<group>"; };
+		957404061D2BFEFC00A1E88B /* SBSWineryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSWineryTableViewController.m; sourceTree = "<group>"; };
 		957B675F1C89B42E00960FBF /* Baccus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baccus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957B67631C89B42E00960FBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		957B67651C89B42E00960FBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -169,6 +172,8 @@
 				B6D822F91C95E03600F2AB90 /* SBSWebViewController.h */,
 				B6D822FA1C95E03600F2AB90 /* SBSWebViewController.m */,
 				B6D822FB1C95E03600F2AB90 /* SBSWebViewController.xib */,
+				957404051D2BFEFC00A1E88B /* SBSWineryTableViewController.h */,
+				957404061D2BFEFC00A1E88B /* SBSWineryTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				957B67671C89B42E00960FBF /* AppDelegate.m in Sources */,
 				B69E60EE1CE8DD6E00EF0553 /* SBSWineryModel.m in Sources */,
 				B6D822FC1C95E03600F2AB90 /* SBSWebViewController.m in Sources */,
+				957404071D2BFEFC00A1E88B /* SBSWineryTableViewController.m in Sources */,
 				957B67641C89B42E00960FBF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
